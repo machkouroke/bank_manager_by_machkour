@@ -14,7 +14,7 @@ Gestionnaire de compte bancaire en ligne de commande <br>
 ## Comment l'utiliser
 - Cloner le répository avec:
 ```
-git clone https://github.com/machkouroke/Wordle_Solver.git
+https://github.com/machkouroke/bank_manager_by_machkour.git
 ```
 
 
