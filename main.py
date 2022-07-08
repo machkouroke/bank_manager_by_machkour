@@ -26,7 +26,7 @@ class Account:
     def already_exists(to_check):
         cur.execute("SELECT * FROM card WHERE number = ?", [to_check])
         existe = cur.fetchone()
-        return True if existe is not None else False
+        return existe is not None
 
     # This method allows a randomly generated code to be completed with a checksum that verifies the luhn algorithm.
     def luhn_complementor(self):
